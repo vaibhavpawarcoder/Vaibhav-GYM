@@ -1,0 +1,183 @@
+/* navigation CSS */
+
+.atcive{
+    text-transform: uppercase;
+    color: red !important;
+}
+.navbar-nav li .link{
+    margin-left: 20px;
+    transition: 0.5 all;
+    text-shadow: 5px 5px 5px grey;
+}
+.navbar-nav li .link:hover{
+    color: white !important;
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px black;
+}
+
+.tour{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: 0.5 all;
+    border: 1px solid snow;
+}
+.tour i{
+    padding: 15px;
+}
+.tour:hover{
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    text-shadow:5px 5px 5px black ;
+    background-color: white;
+    border: 1px solid black !important;
+}
+.atcive{
+    text-transform: uppercase !important;
+    color: red !important;
+}
+.mem{
+    
+    border-radius: 15px 5px 10px ;
+    transition: 0.5 all;
+}
+.mem:hover{
+    border-radius: 30px 60px 50px ;
+    transform: scale(1.1);
+}
+
+
+.logo-name{
+    transition: 0.5 all;
+    text-shadow: 5px 5px 5px red !important;
+}
+@media only screen and (max-width: 376px) {
+    .navbar .container  a p{
+        font-size: 12px;
+        color: black !important;
+        
+    }
+    .navbar{
+        width:500px;
+  background-color: #ffffff60 !important;
+  
+  border: 1px solid black;
+    }
+    .info{
+        float: right;
+    }
+    .tour{
+        font-size: 10px;
+    }
+    .tour i{
+        display: none;
+    }
+    .contain-info-h1{
+        font-size: 15px;
+    }
+    .contain-info-p{
+        font-size: 10px;
+    }
+    
+    .navbar-nav li a{
+        color: black !important;
+    }
+    .logo{
+        width: 30px !important;
+    }
+    
+    .navbar-toggler {
+        background-color: rgba(255, 255, 255, 0.473) !important;
+    }
+
+    
+    .back-img img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .mem{
+        padding-left: 5px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 415px) {
+    .navbar .container  a p{
+        font-size: 12px;
+        color: black !important;
+        
+    }
+  
+    .navbar{
+       
+  background-color: #ffffff60 !important;
+  
+  border: 1px solid black;
+  /* opacity: 0.6; */
+    }
+    .navbar-nav li a{
+        color: black !important;
+    }
+    .logo{
+        width: 30px !important;
+    }
+    
+    .navbar-toggler {
+        background-color: rgba(255, 255, 255, 0.473) !important;
+    }
+
+    .back-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    header {
+        height:50vh;
+        min-height:400px;
+        background-size:cover;
+        background: url('img/back2.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0 71.9125px;
+    }
+}
+
+
+
+header {
+    height:50vh;
+    min-height:400px;
+    background-size:cover;
+    background: url('img/back2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+}
+.back-img img{
+    width: 100%;
+    height: 80vh;
+}
+
+.hidden-spacer {
+    height: 56px
+}
+
+.class-img-tag{
+    margin-top: -10%;
+    left: 0;
+}
+.class-img img{
+    width: 500px;
+}
+
+#About-head{
+    margin-top: 250px;
+    left: 0;
+}
+
+
+
+
+
